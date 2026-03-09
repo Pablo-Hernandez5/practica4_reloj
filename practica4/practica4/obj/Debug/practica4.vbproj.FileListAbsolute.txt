@@ -1,0 +1,12 @@
+C:\JUAN PABLO 24843\practica4\practica4\bin\Debug\practica4.exe.config
+C:\JUAN PABLO 24843\practica4\practica4\bin\Debug\practica4.exe
+C:\JUAN PABLO 24843\practica4\practica4\bin\Debug\practica4.pdb
+C:\JUAN PABLO 24843\practica4\practica4\bin\Debug\practica4.xml
+C:\JUAN PABLO 24843\practica4\practica4\obj\Debug\practica4.vbprojAssemblyReference.cache
+C:\JUAN PABLO 24843\practica4\practica4\obj\Debug\practica4.Resources.resources
+C:\JUAN PABLO 24843\practica4\practica4\obj\Debug\practica4.vbproj.GenerateResource.cache
+C:\JUAN PABLO 24843\practica4\practica4\obj\Debug\practica4.vbproj.CoreCompileInputs.cache
+C:\JUAN PABLO 24843\practica4\practica4\obj\Debug\practica4.exe
+C:\JUAN PABLO 24843\practica4\practica4\obj\Debug\practica4.xml
+C:\JUAN PABLO 24843\practica4\practica4\obj\Debug\practica4.pdb
+C:\JUAN PABLO 24843\practica4\practica4\obj\Debug\practica4.Form1.resources
