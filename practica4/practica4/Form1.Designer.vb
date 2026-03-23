@@ -34,8 +34,9 @@ Partial Class Form1
         Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.config = New System.Windows.Forms.Panel()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.config.SuspendLayout()
@@ -131,13 +132,23 @@ Partial Class Form1
         '
         'config
         '
+        Me.config.Controls.Add(Me.ComboBox1)
         Me.config.Controls.Add(Me.Button1)
         Me.config.Controls.Add(Me.Label1)
-        Me.config.Location = New System.Drawing.Point(214, 156)
+        Me.config.Location = New System.Drawing.Point(214, 166)
         Me.config.Name = "config"
-        Me.config.Size = New System.Drawing.Size(300, 208)
+        Me.config.Size = New System.Drawing.Size(300, 198)
         Me.config.TabIndex = 7
         Me.config.Visible = False
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(18, 40)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(75, 57)
+        Me.Button1.TabIndex = 1
+        Me.Button1.Text = "12h"
+        Me.Button1.UseVisualStyleBackColor = True
         '
         'Label1
         '
@@ -149,14 +160,14 @@ Partial Class Form1
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Configuraciones"
         '
-        'Button1
+        'ComboBox1
         '
-        Me.Button1.Location = New System.Drawing.Point(18, 40)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 57)
-        Me.Button1.TabIndex = 1
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Items.AddRange(New Object() {"Blanco", "Rojo", "Azul", "Amarillo", "Verde"})
+        Me.ComboBox1.Location = New System.Drawing.Point(18, 103)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(75, 21)
+        Me.ComboBox1.TabIndex = 2
         '
         'Form1
         '
@@ -194,4 +205,5 @@ Partial Class Form1
     Friend WithEvents config As Panel
     Friend WithEvents Label1 As Label
     Friend WithEvents Button1 As Button
+    Friend WithEvents ComboBox1 As ComboBox
 End Class
